@@ -73,7 +73,7 @@ The TechWhiz team transformed Hyperion’s vision into a modern, scalable, and u
 
 ---
 
-## 📂 Project Structure (Simplified)
+## 📂 Project Structure
 
 ```
 Hyperion/
@@ -99,7 +99,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/techwhizpgdav/Hyperion.git
+git clone https://github.com/mr-robot369/Hyperion.git
 cd Hyperion
 ```
 
@@ -125,7 +125,8 @@ http://localhost:3000
 Stay connected with Hyperion through our official channels:
 
 - 🌐 **Website:** https://hyperion-l84j.onrender.com/
-- 📸 **Instagram:** https://www.instagram.com/hyperion_pgdav/
+- 📸 **HYPERION Instagram:** https://www.instagram.com/hyperion_pgdav/
+- 📸 **TECHWHIZ Instagram:** https://www.instagram.com/techwhizpgdav/
 
 We welcome collaborations, feedback, and contributions from the community.
 
@@ -151,3 +152,4 @@ Feel free to use, modify, and distribute with proper attribution.
 ---
 
 ### ⭐ If you like this project, consider giving it a star on GitHub!
+
