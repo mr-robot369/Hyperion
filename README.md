@@ -1,70 +1,153 @@
-# Hyperion - Cultural Society Website
+# 🎭 Hyperion – Cultural Society Website
 
-<img src="https://pgdavhyperion.in/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="100" height="100">
+<p align="center">
+  <img src="static/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="120">
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo.svg)](https://github.com/techwhizpgdav/Hyperion/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo.svg)](https://github.com/techwhizpgdav/Hyperion/issues)
+<p align="center">
+  <strong>Official website of Hyperion – The Cultural Society of P.G.D.A.V College (M)</strong>
+</p>
 
-Welcome to the official repository of the Hyperion Cultural Society website for P.G.D.A.V College!
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT">
+  </a>
+  <a href="https://github.com/techwhizpgdav/Hyperion/stargazers">
+    <img src="https://img.shields.io/github/stars/techwhizpgdav/Hyperion" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/techwhizpgdav/Hyperion/issues">
+    <img src="https://img.shields.io/github/issues/techwhizpgdav/Hyperion" alt="GitHub issues">
+  </a>
+</p>
 
-## Table of Contents
-- [About Hyperion](#about-hyperion)
-- [Born from Innovation](#born-from-innovation)
-- [Features](#features)
-- [Installation](#installation)
-- [Connect With Us](#connect-with-us)
+---
 
-## About Hyperion
+## 🌐 Live Website
 
-Hyperion: The cultural society of P.G.D.A.V College (M) is a constituent unit of the Cultural Council of Delhi University. Hyperion is the umbrella society of P.G.D.A.V college constituting under itself all the cultural societies of the college.
+🚀 **Live Demo:** https://hyperion-l84j.onrender.com/
 
-## Born from Innovation:
+---
 
-A special shoutout to TechWhiz, the brilliant tech society of Hyperion, whose dedicated team meticulously crafted this website. Their unwavering commitment to excellence shines through in every line of code, transforming Hyperion's vision into a captivating digital experience.
+## 📌 About Hyperion
 
-## Features
+**Hyperion** is the official cultural society of **P.G.D.A.V College (M), University of Delhi**.  
+It functions as a constituent unit of the **Cultural Council of Delhi University** and serves as the **umbrella society** that brings together all cultural societies of the college under one platform.
 
-- Express and Node.js powered.
-- Utilizes Handlebars for templating.
-- Responsive design for a seamless user experience.
-- Showcase of 12 child societies with details about their core teams.
-- Dedicated section for teachers associated with each society.
-- Gallery section to highlight memorable moments and events.
+The website acts as a digital hub to showcase:
+- Cultural activities
+- Student societies
+- Core teams
+- Events & galleries  
+while reflecting the vibrant cultural spirit of the institution.
 
-## Installation
+---
 
-To run this project locally, follow these steps:
+## 💡 Born from Innovation
 
-1. Clone the repository:
+This project is proudly developed by **TechWhiz**, the technical society of Hyperion.
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+The TechWhiz team transformed Hyperion’s vision into a modern, scalable, and user‑friendly digital experience using **Node.js, Express, and Handlebars**, ensuring both performance and maintainability.
+
+---
+
+## ✨ Key Features
+
+- ⚙️ **Node.js & Express** powered backend
+- 🎨 **Handlebars (HBS)** templating engine
+- 📱 Fully **responsive design**
+- 🏛️ Showcases **12+ cultural societies**
+- 👥 Dedicated pages for **core teams & faculty**
+- 🖼️ Dynamic **gallery section**
+- 🔐 Clean routing & static asset handling
+- 🚀 Deployed on **Render**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express.js  
+- **Templating:** Handlebars (HBS)  
+- **Frontend:** HTML5, CSS3, JavaScript, jQuery  
+- **Hosting:** Render  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📂 Project Structure (Simplified)
+
+```
+Hyperion/
+├── static/
+│   ├── css/
+│   ├── js/
+│   ├── logos/
+│   └── images/
+├── routes/
+├── views/
+│   ├── layouts/
+│   └── *.handlebars
+├── server.js
+├── package.json
+└── README.md
 ```
 
-2. Install dependencies:
+---
 
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/techwhizpgdav/Hyperion.git
+cd Hyperion
+```
+
+### 2️⃣ Install dependencies
 ```bash
 npm install
 ```
 
-3. Start the server:
-
+### 3️⃣ Start the server
 ```bash
 npm start
 ```
-Visit http://localhost:3000 in your web browser.
 
-## Connect With Us
+The application will run at:
+```
+http://localhost:3000
+```
 
-Stay connected with Hyperion on social media and our official website:
+---
 
-- **Website:** [pgdavhyperion.in](https://pgdavhyperion.in/)
-- **Instagram:** [@hyperion_pgdav](https://www.instagram.com/hyperion_pgdav/)
+## 🤝 Connect With Us
 
-Follow us for the latest updates, events, and cultural highlights. We look forward to engaging with our community!
+Stay connected with Hyperion through our official channels:
 
-Feel free to reach out to us on these platforms for any inquiries or collaboration opportunities.
+- 🌐 **Website:** https://hyperion-l84j.onrender.com/
+- 📸 **Instagram:** https://www.instagram.com/hyperion_pgdav/
 
-<img src="https://pgdavhyperion.in/logos/PGDAVLogo.png" alt="Logo1" width="200" height="70"> <img src="https://pgdavhyperion.in/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="100" height="70"> <img src="https://pgdavhyperion.in/logos/techwhizlogo2.jpeg" alt="Logo3" width="100" height="70">
+We welcome collaborations, feedback, and contributions from the community.
+
+---
+
+## 🏫 Associated Societies & Logos
+
+<p align="center">
+  <img src="static/logos/PGDAVLogo.png" alt="PGDAV Logo" width="180">
+  &nbsp;&nbsp;
+  <img src="static/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="120">
+  &nbsp;&nbsp;
+  <img src="static/logos/techwhizlogo2.jpeg" alt="TechWhiz Logo" width="120">
+</p>
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute with proper attribution.
+
+---
+
+### ⭐ If you like this project, consider giving it a star on GitHub!
