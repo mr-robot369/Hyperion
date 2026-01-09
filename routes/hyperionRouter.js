@@ -1,13 +1,10 @@
 const express  =   require('express');
 const router   =   express.Router();
-const {notices,achievements} = require('../assets/dataGetter')
 const data = require('../assets/data.json');
 
 router.get('/',(req,res)=>{
 
     res.render('landing',{
-        notice:notices,
-        achievements:achievements,
         middleSec:true,
         showGallery:true,
         title:"Hyperion-The Cultural Society"})
@@ -15,8 +12,6 @@ router.get('/',(req,res)=>{
 router.get('/contact',(req,res)=>{
     res.render('contactus',{
         title:"Contact Us",
-        notice:notices,
-        achievements:achievements,
         middleSec:false,
         showGallery:true,
     });

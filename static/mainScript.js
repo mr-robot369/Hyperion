@@ -1,3 +1,4 @@
+
 // JS for top buttonfunction
 //Get the button
 var mybutton = document.getElementById("upButton");
@@ -217,7 +218,8 @@ function plusAchieve(position)
   }
   achieve[achieveIndex-1].style.display = "block";  
 }
-        
+   
+
 function achieveSlides() 
 {
   var i;

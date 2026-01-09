@@ -13,7 +13,7 @@
             </div>
         </div>
     </a>
-    <a href="http://pgdavcollege.edu.in/" class="pgdavLogo">
+    <a href="http://pgdavcollege.in/" class="pgdavLogo">
         <img src="logos/PGDAVLogo.png">
     </a>
 </header>
@@ -41,7 +41,7 @@
                 </div>
             <a href="achievements.html">Achievements</a>
             <a href="gallery.html">Gallery</a>
-            <a href="http://pgdavcollege.edu.in/">Back To College Site</a>
+            <a href="http://pgdavcollege.in/">Back To College Site</a>
         </div>
     </section>
     <section id="aaghazBanner" class="clearFix" style="margin-left:0;margin-right:0;margin-top:0;">

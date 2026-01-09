@@ -23,9 +23,10 @@ router.get('/:galName',(req,res)=>{
     // res.send(galdat);
     // res.send(req.params.galName+" "+galdat);
     res.render('gallery',{
-        layout:"navnSide",
+        layout:"gallery_layout",
         // gname:req.params.galName,
-        imag:galdat[0]
+        imag:galdat[0],
+        activeGal: req.params.galName
     });
 })
 

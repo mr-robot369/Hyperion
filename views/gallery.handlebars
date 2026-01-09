@@ -5,19 +5,59 @@
         </div>
         <div class="gallery">
             <ul class="controls">
-                <a href="/gallery/All" class="buttons active" onclick="head('All')" id="All"><li>All</li></a>
-                <a href="/gallery/Aaghaz19" class="buttons"  onclick="head('Aaghaz19')" id="Aaghaz19"><li>Aaghaz19</li></a>
-                <a href="/gallery/Aaghaz20" class="buttons"  onclick="head('Aaghaz20')" id="Aaghaz20"><li>Aaghaz20</li></a>
-                <a href="/gallery/Abhivyakti19" class="buttons"  onclick="head('Abhivyakti19')" id="Abhivyakti19"><li>Abhivyakti19</li></a>
-                <a href="/gallery/Abhivyakti20" class="buttons"  onclick="head('Abhivyakti20')" id="Abhivyakti20"><li>Abhivyakti20</li></a>
-                <a href="/gallery/Ebullience20" class="buttons"  onclick="head('Ebullience20')" id="Ebullience20"><li>Ebullience20</li></a>
-                <a href="/gallery/Exploranza18" class="buttons"  onclick="head('Exploranza18')" id="Exploranza18"><li>Exploranza18</li></a>
-                <a href="/gallery/Exploranza19" class="buttons"  onclick="head('Exploranza19')" id="Exploranza19"><li>Exploranza19</li></a>
+                <a href="/gallery/All" 
+                    class="buttons {{#if (eq activeGal 'All')}}active{{/if}}" 
+                    onclick="head('All')" id="All">
+                    <li>All</li>
+                </a>
+
+                <a href="/gallery/Aaghaz19" 
+                    class="buttons {{#if (eq activeGal 'Aaghaz19')}}active{{/if}}" 
+                    onclick="head('Aaghaz19')" id="Aaghaz19">
+                    <li>Aaghaz19</li>
+                </a>
+
+                <a href="/gallery/Aaghaz20" 
+                    class="buttons {{#if (eq activeGal 'Aaghaz20')}}active{{/if}}" 
+                    onclick="head('Aaghaz20')" id="Aaghaz20">
+                    <li>Aaghaz20</li>
+                </a>
+
+                <a href="/gallery/Abhivyakti19" 
+                    class="buttons {{#if (eq activeGal 'Abhivyakti19')}}active{{/if}}" 
+                    onclick="head('Abhivyakti19')" id="Abhivyakti19">
+                    <li>Abhivyakti19</li>
+                </a>
+
+                <a href="/gallery/Abhivyakti20" 
+                    class="buttons {{#if (eq activeGal 'Abhivyakti20')}}active{{/if}}" 
+                    onclick="head('Abhivyakti20')" id="Abhivyakti20">
+                    <li>Abhivyakti20</li>
+                </a>
+
+                <a href="/gallery/Ebullience20" 
+                    class="buttons {{#if (eq activeGal 'Ebullience20')}}active{{/if}}" 
+                    onclick="head('Ebullience20')" id="Ebullience20">
+                    <li>Ebullience20</li>
+                </a>
+
+                <a href="/gallery/Exploranza18" 
+                    class="buttons {{#if (eq activeGal 'Exploranza18')}}active{{/if}}" 
+                    onclick="head('Exploranza18')" id="Exploranza18">
+                    <li>Exploranza18</li>
+                </a>
+
+                <a href="/gallery/Exploranza19" 
+                    class="buttons {{#if (eq activeGal 'Exploranza19')}}active{{/if}}" 
+                    onclick="head('Exploranza19')" id="Exploranza19">
+                    <li>Exploranza19</li>
+                </a>
+
             </ul>
             <div class="image-container">
                 {{#each imag.links}}
-                <a href="socities/{{this}}" class="image {{imag.slug}}">
-                    <img src="socities/{{this}}" alt="">
+                <a href="/socities/{{this}}" class="image {{imag.slug}}">
+                    <img src="/socities/{{this}}" alt="">
                 </a>
                 {{/each}}
             </div>
@@ -34,18 +74,9 @@
                 }
             </script> --}}
         <!-- jquery cdn link -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- magnific popup js cdn link -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
-        <script>
-            $(window).load( function(){
-                $(document).on('click','.controls a' , function(){
-                    $('.controls a').removeClass("active");
-                    $(this).parent().addClass("active");
-                    return false;
-                });
-                $('.gallery').load
-            })
-        </script>
+        {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js"></script>
     </section>

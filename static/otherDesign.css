@@ -74,7 +74,7 @@ margin: 20px;
 .gallery .image-container .image img{
 height: 100%;
 width: 100%;
-/* object-fit: cover; */
+object-fit: cover;
 }
 
 .gallery .image-container .image:hover img{

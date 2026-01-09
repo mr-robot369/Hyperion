@@ -6,7 +6,7 @@
         <a href="techwhiz.html#leftSection"><img src="logos/techWhizpng.png" id="footerlogo" style="height: 120px;width:120px;position:absolute;bottom:0"></a>
         <!-- --------------Quick Links------------ -->
         <div class="rightFooter">
-            <a href="http://pgdavcollege.edu.in/Viewtopics.aspx?MenuId=DISCLAIMER_487">Disclaimer</a>
+            <a href="https://www.pgdavcollege.in/uploads/admission/undergraduate/prospectus/PGDAV%20Prospectus%202023-24.pdf">Disclaimer</a>
             <a href="contact.html">Contact Us</a>
         </div>
     </footer>
