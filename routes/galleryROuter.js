@@ -12,7 +12,8 @@ router.get('/',(req,res)=>{
     res.render('gallery',{
         layout:"gallery_layout",
         // gname:req.params.galName,
-        imag:galdata[0]
+        imag:galdata[0],
+        activeGal: 'All'
     });
 })
 
